@@ -6,43 +6,66 @@
     <title>XRP3</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container">
-        <h1>XRP3</h1>
+<body style="background-color: #C2DFFF;">
+    <header class="site-header">
+        <div class="logo">Deep Dive</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="posts.html">Dev Blog</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <h1 class="hero-title">Deep Dive</h1>
+        <div class="scroll-arrow">&darr;</div>
+    </div>
 
+    <div class="container">
         <!-- Video Section -->
         <div class="video-container">
-            <h2>Video</h2>
-            <!-- Video Wrapper for Responsive Aspect Ratio -->
+            <h2>Check out our current progress</h2>
             <div class="video-wrapper">
-                <!-- Add your video iframe here -->
-                <!-- only change the part of the link after /embed/ and replace it with the video id
-                     the video id is the part of the url after watch?v= -->
-                <iframe src="https://www.youtube.com/embed/p8nLFyHyRuM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/p8nLFyHyRuM"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
             </div>
         </div>
 
-        <!-- Description Section -->
+        <!-- About Us Section -->
         <div class="description">
-            <h2>Description</h2>
+            <h2>What is Deep Dive?</h2>
             <p>
-                This project comes with a few workouts for free and offers a monthly subscription
-                for a premium membership that allows users to get access to more workouts, diagnostics,
-                and more.
+                Deep Dive is a VR application for learning the basics of how to scuba dive. The application starts out
+                by teaching the user how to communicate and move around while scuba diving and then presents them with
+                tasks in order to gain confidence in their scuba diving skills.
+            </p>
+            <br>
+            <p>
+                Allow us to take you on a journey to the ocean from the comfort of your home where you can suite up and
+                go scuba diving without all of the hassle of traveling and dealing with exspensive equipment. Together
+                with your help we aim to create a community of divers to spread the knowledge of scuba diving.
             </p>
         </div>
 
-        <!-- Blog Posts Section -->
-        <div class="blog-posts">
-            <h2>Blog Posts</h2>
-            <div class="post">
-                <h3>Project Start</h3>
-                <p>Welcome to the first dev blog! In this week's dev blog we cover the topic and methodology of the project along
-                    with what the team worked on this week.
-                </p>
-                <a href="posts.html">Read more...</a>
-            </div>
+        <!-- Pricing Section -->
+        <div class="description">
+            <h2>Pricing</h2>
+            <p>
+                Deep Dive offers some basic training and tasks for free. With the Deep Dive Pro subscription
+                users get access to the full Deep Dive scuba diving training suite along with regular updates
+                with new tasks each month.
+            </p>
         </div>
     </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 Deep Dive. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
